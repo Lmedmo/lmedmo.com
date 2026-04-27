@@ -1,0 +1,14 @@
+{
+  "first_name": "Logan",
+  "last_name": "Edmondson",
+  "contact": {
+    "email": "logan.edmondson09@outlook.com",
+    "phone":  0
+  },
+  "linked_accounts": [
+    { "description": "GitHub",    "username": "lmedmo",           "url": "https://github.com/lmedmo" },
+    { "description": "LinkedIn",  "username": "logan-edmondson",  "url": "https://www.linkedin.com/in/lmedmo" },
+    { "description": "X",         "username": "@lmedmo",          "url": "https://x.com/lmedmo" }
+  ],
+  "background": "Professional with 5+ years of experience in a wide range of fields such as Computer Programming, Systems Engineering/Administration, Process Automation & AI, IT Solutions Consulting and Precision Manufacturing. Certified to perform theduties of an IT Systems Administrator, Network Administrator, Database Administrator/Engineer, Linux Administrator, and IT Security Professional. Graduated on the Dean's List in Spring of 2023 with an Associates of Applied Science in Information Technology, specializing in Computer Programming and Software Development. Solving problems, learning new skills, andbuilding things are my passions. I'm always willing to go the extra step to achieve the best result and to grow as a person,as a professional, and as a teammate. Currently the recipient of a High Public Trust Security Clearance."
+}

@@ -1,0 +1,49 @@
+<script lang="ts">
+    let { accentcolor }: { accentcolor: string } = $props();
+
+    let color = $derived(accentcolor);
+</script>
+
+<div class="quotemark-right">
+    <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="v3.4-quotation_right--0f-alt_blue-x1-0br-1024p" clip-path="url(#clip0_1342_10419)">
+            <g id="container">
+                <g id="icon">
+                    <g id="Vector" filter="url(#filter0_dii_1342_10419)">
+                        <path d="M12.9664 10.2456C8.35523 9.92355 5.59651 13.084 5.35056 16.6061C5.17579 19.1087 6.38595 21.7476 8.64018 22.8848C11.5867 24.3712 11.6497 27.2088 11.6027 27.8808C11.4862 29.5491 10.5089 31.1158 8.69796 32.394C7.98481 32.8973 7.50407 33.4864 8.00571 34.2682C8.4702 34.9921 9.34741 34.7838 9.72897 34.6082C12.2369 33.454 19.9392 28.7631 20.6097 19.1619C20.9333 14.5275 18.041 10.5999 12.9664 10.2456Z" fill={color}/>
+                        <path d="M12.9664 10.2456C8.35523 9.92355 5.59651 13.084 5.35056 16.6061C5.17579 19.1087 6.38595 21.7476 8.64018 22.8848C11.5867 24.3712 11.6497 27.2088 11.6027 27.8808C11.4862 29.5491 10.5089 31.1158 8.69796 32.394C7.98481 32.8973 7.50407 33.4864 8.00571 34.2682C8.4702 34.9921 9.34741 34.7838 9.72897 34.6082C12.2369 33.454 19.9392 28.7631 20.6097 19.1619C20.9333 14.5275 18.041 10.5999 12.9664 10.2456Z" fill="white" fill-opacity="0.2"/>
+                        <path d="M31.9976 10.2453C27.3865 9.92331 24.6278 13.0838 24.3818 16.6059C24.2071 19.1085 25.4172 21.7474 27.6714 22.8846C30.6179 24.371 30.6809 27.2085 30.634 27.8805C30.5175 29.5489 29.5402 31.1156 27.7292 32.3937C27.0161 32.8971 26.5353 33.4861 27.037 34.268C27.5015 34.9918 28.3787 34.7835 28.7602 34.6079C31.2682 33.4537 38.9705 28.7628 39.641 19.1616C39.9646 14.5273 37.0722 10.5997 31.9976 10.2453Z" fill={color}/>
+                        <path d="M31.9976 10.2453C27.3865 9.92331 24.6278 13.0838 24.3818 16.6059C24.2071 19.1085 25.4172 21.7474 27.6714 22.8846C30.6179 24.371 30.6809 27.2085 30.634 27.8805C30.5175 29.5489 29.5402 31.1156 27.7292 32.3937C27.0161 32.8971 26.5353 33.4861 27.037 34.268C27.5015 34.9918 28.3787 34.7835 28.7602 34.6079C31.2682 33.4537 38.9705 28.7628 39.641 19.1616C39.9646 14.5273 37.0722 10.5997 31.9976 10.2453Z" fill="white" fill-opacity="0.2"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <defs>
+            <filter id="filter0_dii_1342_10419" x="3.33398" y="8.22266" width="44.3315" height="34.5547" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dx="3" dy="3"/>
+                <feGaussianBlur stdDeviation="2.5"/>
+                <feComposite in2="hardAlpha" operator="out"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.25098 0 0 0 0 0.25098 0 0 0 0 0.25098 0 0 0 0.15 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1342_10419"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1342_10419" result="shape"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dx="-1" dy="-1"/>
+                <feGaussianBlur stdDeviation="1"/>
+                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.188235 0 0 0 0 0.188235 0 0 0 0 0.188235 0 0 0 0.25 0"/>
+                <feBlend mode="normal" in2="shape" result="effect2_innerShadow_1342_10419"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dx="1" dy="1"/>
+                <feGaussianBlur stdDeviation="1"/>
+                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.3 0"/>
+                <feBlend mode="normal" in2="effect2_innerShadow_1342_10419" result="effect3_innerShadow_1342_10419"/>
+            </filter>
+            <clipPath id="clip0_1342_10419">
+                <rect width="45" height="45" fill="white"/>
+            </clipPath>
+        </defs>
+    </svg>
+</div>

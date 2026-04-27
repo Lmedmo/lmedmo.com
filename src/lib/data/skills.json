@@ -1,0 +1,278 @@
+{
+  "name": "Skills & Experience",
+  "content": [
+    {
+      "iconkey": "programming",
+      "skillset_name": "Programming / Scripting",
+      "skills": [],
+      "subsets": [
+        {
+          "iconkey": "softwengineer",
+          "subsetname": "Software Development Practices",
+          "skills": [
+            {
+              "iconkey": "softwdesign",
+              "name": "Design Patterns and Core Concepts",
+              "details": "Solid understanding of fundamental software design patterns and other core development concepts such as object-oriented programming, Model-View-Controller (MVC) architecture, Model-View-ViewModel (MVVM) architecture, the Agile Method, and more.",
+              "topickeys": ["agile"]
+            },
+            {
+              "iconkey": "versctrl",
+              "name": "Version Control",
+              "details": "Experienced using Git (CLI) and Git based tools / services, most notably GitHub, GitLab, GitButler, GitKraken, and Tower. Additional experience with building self-hosted Git / GitLab servers for use with document, media, and code repositories.",
+              "topickeys": ["git", "gitlab"]
+            }
+          ]
+        },
+        {
+          "iconkey": "codelang",
+          "subsetname": "Languages",
+          "skills": [
+            {
+              "iconkey": "rust",
+              "name": "Rust",
+              "details": "Extensive knowledge of fundamental Rust concepts such as the ownership model, borrowing, the module/crate tree system, error handling, etc. Experience using for full-stack, native, cross-platform (i.e. desktop/mobile) application development built with Tauri (a Rust based app framework). Also, experienced using Cargo package manager and Crates, which include, but are not limited to SQLx (for embedded SQLite / PostgreSQL / DuckDB datastore interfacing), Tokio / Async-Std (for Asynchronous runtimes), Serde (for serialization and deserialization of types), and many more.",
+              "experience_level": "Advanced",
+              "topickeys": ["tauri"]
+            },
+            {
+              "iconkey": "powershell",
+              "name": "PowerShell",
+              "details": "Experience authoring scripts to automate Windows endpoint and Active Directory related tasks such as modifying user & computer objects, deploying software packages and updates, gathering device metrics and more.",
+              "experience_level": "Advanced",
+              "topickeys": ["ms_ad"]
+            },
+            {
+              "iconkey": "python",
+              "name": "Python",
+              "details": "Experience using Python for automation and data modeling / analysis tasks, such as translating or parsing data between various languages / syntaxes (i.e. CSV, MD, TOML, JSON, YAML, SQL, XML, INI, etc.). Experience using popular libraries such as Tkinter (for building GUIs), BeautifulSoup (for web scraping), and more.",
+              "experience_level": "Advanced",
+              "topickeys": []
+            },
+            {
+              "iconkey": "typescript",
+              "name": "TypeScript (JavaScript)",
+              "details": "Experience with usage for both front and back-end web application development purposes (in combination with HTML and CSS). Experienced with front-end frameworks such at Svelte (SvelteKit), React and SolidJS, in addition to other web technologies which includes, but is not limited to Node.JS, Deno, Vite, PNPM, REST APIs, Web-sockets, TailwindCSS, and more.",
+              "experience_level": "Advanced",
+              "topickeys": ["javascript", "svelte", "deno", "node"]
+            },
+            {
+              "iconkey": "java",
+              "name": "Java",
+              "details": "First language, learned as high-school sophomore (2014). Experience using for cross-platform desktop application development (using JavaFX and SceneBuilder, JVM / JDK) and Android application development. Familiar with using tools such as IntelliJ, Netbeans, Eclipse, Android Studio IDE, VS Code, and others for Java app development.",
+              "experience_level": "Intermediate",
+              "topickeys": ["javafx", "scenebuilder"]
+            },
+            {
+              "iconkey": "php",
+              "name": "PHP",
+              "details": "Experience building and deploying WAMP/LAMP stack (Windows/Linux, Apache HTTP Server, MySQL/MariaDB, and PHP) data-driven web applications. Experience and knowledge of related technologies and frameworks such as WordPress and Laravel.",
+              "experience_level": "Intermediate",
+              "topickeys": ["xamp", "apache"]
+            },
+            {
+              "iconkey": "codelang",
+              "name": "Others",
+              "details": "Bash / Zsh, Go (Golang), C# / .NET, Swift, Nim, and Elixir.",
+              "experience_level": "Beginner",
+              "topickeys": ["dotnet"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iconkey": "sysadmin",
+      "skillset_name": "System Administration / Engineering",
+      "skills": [
+        {
+          "iconkey": "winserver",
+          "name": "Windows Server Administration",
+          "details": "Experience with configuring devices running Windows Server as a Domain Controller, WSUS Server, MS SQL Server, DNS Server, DHCP Server, and Configuration Manager Primary Site. Also experienced with creating network drives/shares, managing system backups, setting up RAID, creating drive partitions and logical volumes, configuring BitLocker, etc.",
+          "topickeys": ["mssql"]
+        },
+        {
+          "iconkey": "mecm",
+          "name": "Endpoint Configuration",
+          "details": "Experience with using Microsoft Intune (Previously SCCM, then MECM), and the Microsoft Deployment Toolkit (MDT) for Device Management, Configuration, and Security Compliance tasks such as Windows 10 Image creation and deployment, and software packaging and distribution via Configuration Manager Collections.",
+          "topickeys": []
+        },
+        {
+          "iconkey": "ms_ad",
+          "name": "Active Directory",
+          "details": "Experience with creating and managing user accounts, computer objects, Organizational Units, Computer/User Groups, Group Policies (GPOs), and performing other tasks associated with Active Directory Domain Services, such as configuring smart-card authentication, configuring Kerberos policies, changing user passwords and password policies, setting user permissions, using LDAP APIs to enable security features such as MFA and SSO, etc.",
+          "topickeys": []
+        },
+        {
+          "iconkey": "m365",
+          "name": "Microsoft 365 Administration",
+          "details": "Experience performing administrative tasks related to M365 applications (Teams, Sharepoint, Exchange, PowerApps, etc.) such as enabling or disabling features, managing user permissions, etc.",
+          "topickeys": []
+        },
+        
+        {
+          "iconkey": "virt",
+          "name": "Virtualization (VMs)",
+          "details": "Experience using virtual-machines to test system architectures and collect information for determining requirements and making improvements.",
+          "topickeys": ["hyperv", "vmware", "proxmox", "docker", "podman"]
+        },
+        {
+          "iconkey": "patch",
+          "name": "Patching",
+          "details": "Experience creating, deploying, monitoring, and rolling back software patches or Fixlets using HCL BigFix (IBM BigFix). Additional usage of this tool involved performing multi-action groups, creating baselines, adding/updating registry keys, and scheduling actions for after hours.",
+          "topickeys": ["hcl_bigfix"]
+        },
+        {
+          "iconkey": "linux",
+          "name": "Linux / Unix Administration",
+          "details": "Experience that applies to a wide range of distributions (Ubuntu, Fedora, CentOS, Kali, Manjaro, NixOS, OpenSUSE, etc.) and includes performing tasks such as OS installation and device imaging, working with the terminal / command-line, writing Bash scripts, managing the filesystem, managing partitions and logical volumes, deploying servers / services and cloud applications, managing system processes, managing Users, managing connected devices such as printers, managing system logs, monitoring system performance, performing system backups and restoration, configuring network connections, managing virtual machines / containers (ex. Docker / Podman), and troubleshooting a multitude of issues.",
+          "topickeys": ["ubuntu", "nixos", "rhel"]
+        }
+      ],
+      "subsets": []
+    },
+    {
+      "iconkey": "network",
+      "skillset_name": "Network Administration",
+      "skills": [
+        {
+          "iconkey": "netplan",
+          "name": "Planning",
+          "details": "Experience with evaluating the specifications of infrastructure devices (routers, switches, access points, transceivers, racks, cooling, UPSs, cabling options, etc.) to determine appropriate solutions based upon parameters related to a project's defined scope or objectives / requirements.",
+          "topickeys": []
+        },
+        {
+          "iconkey": "netmodel",
+          "name": "Modeling",
+          "details": "Experience with creating diagrams of logical and physical network topologies, as well rack diagrams, and using tools such as Cisco Packet Tracer and virtual machines to model and test implementations.",
+          "topickeys": []
+        },
+        {
+          "iconkey": "netimpl",
+          "name": "Implementation",
+          "details": "Experience installing and configuring network infrastructure devices (especially those from Cisco, Ubiquiti, Netgate, and Fortinet) that includes, but is not limited to, routers, switches, wireless access-points, firewalls, network controllers (ex. UniFi OS Server or UniFi Network Server), NAS devices, along with a variety of IoT devices.",
+          "topickeys": ["unifi", "cisco", "pfsense"]
+        },
+        {
+          "iconkey": "netcfg",
+          "name": "Configuring",
+          "details": "Experience managing the configuration of network firewalls (UTM and NGFW devices), multilayer switches, and WLAN controllers to implement or enable features such as: Network Segmentation using VLANs, subnetting, and Demilitarized Zones (DMZs); IPv4 (NAT / DHCP) and IPv6 networks; Remote access over RDP or SSH; Access Control Lists (ACLs); MAC Address Filtering; Application Whitelisting; Rogue Host Protection; PXE (Network) Booting; Port Forwarding; Load Balancing; Intrusion Detection (IDS) & Intrusion Prevention (IPS); Internal DNS and VPNs.",
+          "topickeys": []
+        },
+        {
+          "iconkey": "netmon",
+          "name": "Monitoring",
+          "details": "Experience performing network availability, utilization, and performance scanning/monitoring related tasks such as log analysis and task scheduling (using Event Viewer, the command prompt, and SIEM tools such Splunk), as well as port scanning using Zenmap or nmap.",
+          "topickeys": []
+        },
+        {
+          "iconkey": "netserv",
+          "name": "Servicing",
+          "details": "Experience using a wide range of techniques, tools and methods to identify potential network issues, regardless of where it exists in the 7-Layer OSI Model (i.e. 1-Physical, 2-Data Link, 3-Network, 4-Transport, 5-Session, 6-Presentation, & 7-Application).",
+          "topickeys": []
+        }
+      ],
+      "subsets": []
+    },
+    {
+      "iconkey": "database",
+      "skillset_name": "Database Design / Administration",
+      "skills": [
+        {
+          "iconkey": "database",
+          "name": "General",
+          "details": "Experience designing, developing, and maintaining relational and NoSQL databases including MySQL/MariaDB, MS SQL, PostgreSQL, SurrealDB, and SQLite, for the purpose of building server-side rendered web apps, deploying Microsoft Endpoint Configuration Management (MECM) Sites and Hierarchies, and creating cross-platform desktop/mobile applications with embedded data stores. Related experience includes exposure to tools like MySQL Workbench, MS SQL Server Management Studio (SSMS), DBeaver and experience implementing custom backend APIs that interface with toolkit libraries (such as SQLx) and other CLIs.",
+          "topickeys": ["sqlite", "mysql", "mssql"]
+        }
+      ],
+      "subsets": []
+    },
+    {
+      "iconkey": "infosec",
+      "skillset_name": "Information Security",
+      "skills": [
+        {
+          "iconkey": "infosec",
+          "name": "General",
+          "details": "Experience and training related to identifying potential threat actors and attack vectors, performing security and risk management assessments, implementing PKI and Identity/Access management, evaluating Physical security, enforcing wireless, cloud, and mobile device security, etc.",
+          "topickeys": []
+        },
+        {
+          "iconkey": "vulndetect",
+          "name": "Vulnerability Detection",
+          "details": "Experience using vulnerability scanning software like Tenable Nessus and Snort, as well as other relevant tools such as packet sniffers like Wireshark.",
+          "topickeys": []
+        },
+        {
+          "iconkey": "secfix",
+          "name": "Remediation",
+          "details": "Experience using HCL BigFix (IBM BigFix) to generate compliance reports and push vulnerability patches or Fixlets.",
+          "topickeys": ["hcl_bigfix"]
+        },
+        {
+          "iconkey": "pentest",
+          "name": "Penetration Testing",
+          "details": "Experience which includes performing SQL injections, ARP poisoning, DNS poisoning, SYS-Flooding, Man-in-the-Middle attacks using Ettercap, and password cracking using tools like Rainbow Tables and John the Ripper.",
+          "topickeys": []
+        }
+      ],
+      "subsets": []
+    },
+    {
+      "iconkey": "prodmgmt",
+      "skillset_name": "Productivity and Project Management",
+      "skills": [
+        {
+          "iconkey": "teamwork",
+          "name": "Teamwork / Leadership",
+          "details": "Experience leading teams of 10+ people. Generated and evaluated performance metrics to coordinate objectives that would ensure production goals were met or exceeded. Communicated proactively with peers and other departments, trained new and existing employees, etc.",
+          "topickeys": []
+        },
+        {
+          "iconkey": "docs",
+          "name": "Documentation",
+          "details": "Experience with developing comprehensive, but understandable documentation to be used as a Standard Operating Procedure (SOP), training resource, or to report research/test findings.",
+          "topickeys": []
+        },
+        {
+          "iconkey": "assetmgmt",
+          "name": "Asset management",
+          "details": "Experience with optimizing processes relating to the lifecycle of a PC, specifically laptops. This included the acquisition, inventorying, imaging & configuration, deployment, post-deployment tracking and health monitoring, and decommissioning of devices. My role pertained mostly to the creation of an Imaging depot to better facilitate the Inventorying, Imaging/configuration, and deployment phases. Experience involved designing MECM/SCCM Server/Site Hierarchies, along with designing and implementing systems and procedures related to device processing, progress tracking, order/ticket tracking, and quality assurance (For example, developing a database for record keeping and gathering metrics, creating process check-sheets and SOPs, implementing a barcode system for updating status, optimizing workstations to improve throughput and maximize capacity, etc.).",
+          "topickeys": []
+        }
+      ],
+      "subsets": []
+    },
+    {
+      "iconkey": "design",
+      "skillset_name": "UI/UX and Product Design",
+      "skills": [
+        {
+          "iconkey": "figma",
+          "name": "Figma",
+          "details": "Experience using Figma's wide selection of tools and features to create a variety of different Icons, documents, and application interface mockups.",
+          "topickeys": []
+        },
+        {
+          "iconkey": "adobe_cc",
+          "name": "Adobe Creative Cloud",
+          "details": "Experience using primarily Photoshop and Illustrator for general photo editing and creating graphical assets useful in UI mockups, branding, diagrams, etc.",
+          "topickeys": []
+        },
+        {
+          "iconkey": "autodesk",
+          "name": "Autodesk",
+          "details": "Experience using tools such as AutoCAD and Fusion for generating 3D mockups and prototypes of various items, components, and structures for demonstration purposes and/or production via 3D Printing or CNC cutting.",
+          "topickeys": []
+        },
+        {
+          "iconkey": "design",
+          "name": "Other tools",
+          "details": "Experience using and evaluating other tools such as Spline, Affinity Photo, Affinity Designer, Apple Motion, Framer, ProtoPie and Sketch.",
+          "topickeys": ["spline", "sketch"]
+        }
+      ],
+      "subsets": []
+    }
+  ]
+}

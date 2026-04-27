@@ -1,0 +1,36 @@
+{
+  "name": "Certifications",
+  "content": [
+    {
+      "iconkey": "securitypro",
+      "name": "TestOut Security Pro",
+      "special_attributes": [],
+      "description": "Demonstrates ability to perform tasks commonly performed by IT security professionals (Network administrators, Systems administrators and IT security specialists). These tasks include the ability to implement layered security through group policy objects, access control lists, wireless and wired local area network security measures, workstation and mobile device security measures, and maintain security protocols and best practices.",
+      "links": []
+    },
+    {
+      "iconkey": "nocti_cert",
+      "name": "NOCTI Workforce Competency Credential in Computer Technology",
+      "special_attributes": [],
+      "description": "Demonstrates competency in Professional Standards, Ethics, and Business Practices; General Computer Knowledge and Concepts; Hardware and Software Knowledge; Networking and Data Communications; and Security.",
+      "links": []
+    },
+    {
+      "iconkey": "usgov_opm",
+      "name": "High Public Trust",
+      "special_attributes": [{
+        "name": "Level",
+        "value": "Tier 3*"
+      }],
+      "description": "Indicates no criminal record, illegal drug involvements, financial delinquencies, mental health concerns, alcohol related incidents, civil court actions, misuse of computer systems, or subversive activities for the past seven to ten years.",
+      "links": []
+    },
+    {
+      "iconkey": "kctcscert",
+      "name": "Gateway / KCTCS Credentials",
+      "special_attributes": [],
+      "description": "Demonstrates possession of the knowledge and skillset needed to earn a CompTIA certification through the completion of coursework designed to prepare for a specific exam / exam-set. The following CompTIA certification preparatory credentials have been earned: \n - A+ Prep Certification \n - Network+ Prep Certification \n - Security+ Prep Certification \n - Linux+ Prep Certification",
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+/* Fonts -- lmedmo.com */
+
+/*% Aleo ( variable 'wght' 100-900 ) */
+@font-face {
+    font-family: "Aleo";
+    src: url("./aleo/aleo-var.ttf") format("truetype");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 100 900;
+}
+@font-face {
+    font-family: "Aleo-Italic";
+    src: url("./aleo/aleo-var-italic.ttf") format("truetype");
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: italic;
+}
+
+/*% Be-Vietnam-Pro ( variable 'wght' 100-900 ) */
+@font-face {
+    font-family: "Be-Vietnam-Pro";
+    src: url("./be-vietnam-pro/be-vietnam-pro-var.ttf") format("truetype");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 100 900;
+}
+@font-face {
+    font-family: "Be-Vietnam-Pro-Italic";
+    src: url("./be-vietnam-pro/be-vietnam-pro-italic-var.ttf")
+        format("truetype");
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: italic;
+}
+
+/*% Geist-Pixel ( variable 'wght' 100-900 ) [ cir, grid, line, sqr, tri ] */
+@font-face {
+    font-family: "Geist-Pixel-Cir";
+    src:
+        url("./geist-pixel/geist-px-cir.otf") format("opentype"),
+        url("./geist-pixel/geist-px-cir.ttf") format("truetype");
+    font-display: swap;
+    font-weight: 100 900;
+}
+@font-face {
+    font-family: "Geist-Pixel-Grid";
+    src:
+        url("./geist-pixel/geist-px-grid.otf") format("opentype"),
+        url("./geist-pixel/geist-px-grid.ttf") format("truetype");
+    font-display: swap;
+    font-weight: 100 900;
+}
+@font-face {
+    font-family: "Geist-Pixel-Line";
+    src: url("./geist-pixel/geist-px-ln.ttf") format("truetype");
+    font-feature-settings: 'ss02' on, 'ss03' on, 'ss05' on;
+        /* url("./geist-pixel/geist-px-ln.otf") format("opentype"), */
+    font-display: swap;
+    font-weight: 100 900;
+}
+@font-face {
+    font-family: "Geist-Pixel-Sqr";
+    src: url("./geist-pixel/geist-px-sqr.ttf") format("truetype");
+        /* url("./geist-pixel/geist-px-sqr.otf") format("opentype"), */
+    font-display: swap;
+    font-weight: 100 900;
+}
+@font-face {
+    font-family: "Geist-Pixel-Tri";
+    src:
+        url("./geist-pixel/geist-px-tri.otf") format("opentype"),
+        url("./geist-pixel/geist-px-tri.ttf") format("truetype");
+    font-display: swap;
+    font-weight: 100 900;
+}
+
+/*% Mulish */
+@font-face {
+    font-family: "Mulish";
+    src: url("./mulish/mulish-vf.ttf") format("truetype");
+    font-display: swap;
+    font-weight: 200 1000;
+}
+@font-face {
+    font-family: "Mulish-Italic";
+    src: url("./mulish/mulish-vf-italic.ttf") format("truetype");
+    font-display: swap;
+    font-weight: 200 1000;
+    font-style: italic;
+}
+
+/*% Red-Hat-Mono */
+@font-face {
+    font-family: "Red-Hat-Mono";
+    src: url("./red-hat-mono/red-hat-mono-vf.ttf") format("truetype");
+    font-display: swap;
+    font-weight: 300 700;
+}
+@font-face {
+    font-family: "Red-Hat-Mono-Italic";
+    src: url("./red-hat-mono/red-hat-mono-vf-italic.ttf") format("truetype");
+    font-display: swap;
+    font-weight: 300 700;
+    font-style: italic;
+}
+
+/*% Sono */
+@font-face {
+    font-family: "Sono";
+    src: url("./sono/sono-var.ttf") format("truetype");
+    font-display: swap;
+    font-weight: 200 800;
+}

@@ -1,0 +1,47 @@
+{
+  "name": "References",
+  "content": [
+    {
+      "first_name": "Dustin",
+      "last_name": "Drifmeyer",
+      "relation": "Former Manager",
+      "occupation": "Manager at Clarkson Eyecare",
+      "contact": {
+        "phone": 0,
+        "email": "westdrif@gmail.com"
+      },
+      "linked_accounts": [
+        { "description": "LinkedIn",  "username": "",  "url": "https://www.linkedin.com/in/" }
+      ],
+      "quote": "I've been a hiring manager for 12 years now, having been involved in countless interviews, on-boardings, and firings. I couldn't even begin to tell you how many people I've interviewed. With all of that being said, as one hiring manager to another, Logan is legitimately as close to a “Slam Dunk” hire as one can be. I volunteered to write this recommendation for Logan because I value the time I got to spend with him and I am extremely appreciative for his contributions to my team and, more importantly, my own professional career. Moreover, I am genuinely excited to see where Logan takes his talents and his skill sets and I can't wait to witness him make his impact in the tech world."
+    },
+    {
+      "first_name": "Allen",
+      "last_name": "Noble",
+      "relation": "Former Manager",
+      "occupation": "Production Manager at ABB Optical Group",
+      "contact": {
+        "phone": 0,
+        "email": "anoble@abboptical.com"
+      },
+      "linked_accounts": [
+        { "description": "LinkedIn",  "username": "",  "url": "https://www.linkedin.com/in/" }
+      ],
+      "quote": "Logan has been an employee of mine for close to 3 years. He has always had a great personality and thought of advancement for himself and what he is doing. He has grown over those years into an adaptable and coachable young man. He has high ambition for his craft, and I feel that he can pursue many fields and have success. He would be a great addition to your team."
+    },
+    {
+      "first_name": "Bill",
+      "last_name": "Jing",
+      "relation": "Professor, Councilor, Mentor",
+      "occupation": "Software Engineer at Twin Spires",
+      "contact": {
+        "phone": 0,
+        "email": "bill.jing@kctcs.edu"
+      },
+      "linked_accounts": [
+        { "description": "LinkedIn",  "username": "",  "url": "https://www.linkedin.com/in/" }
+      ],
+      "quote": "I know Logan Edmondson since he started at Gateway because I am his academic advisor and he is a student in many of my classes: such as CIT170, CIT171, CIT155, CIT144, CIT149, CIT249, and CIT253. Based on Logan's grade, attendance, and class participation, I would rate Logan's academic performance in my classes as superior. Logan has a great sense of Computer Information Technology. In my classes, he always delivers excellent assignments and projects. Logan has strong problem-solving skills, and self-learning skills, and always be willing to learn new technologies. Logan has been on the Dean's List for many semesters.Based on my 14 years of teaching experience as a CIT faculty at Gateway, and 15 years of industry experience as a software engineer, I would highly recommend Logan Edmondson. I am confident He will be a great addition to your organization."
+    }
+  ]
+}

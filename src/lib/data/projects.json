@@ -1,0 +1,53 @@
+{
+  "name": "Projects",
+  "content": [
+    {
+      "iconkey": "lmedmo",
+      "title": "lmedmo.com",
+      "category": "code",
+      "links": [],
+      "description": "This website! ",
+      "topickeys": [ "svelte", "typescript", "deno", "css", "figma" ]
+    },
+    {
+      "iconkey": "finance-app",
+      "title": "Personal Finance App",
+      "category": "code",
+      "links": [],
+      "description": "A cross-platform Desktop and Mobile app which can calculate budget category spending totals, allow a user to create custom budget plans, allow a user to add transactions easily and on the fly, give the user the ability to view, edit, and perform calculations on their account statement(s), and much more.",
+      "topickeys": [ "tauri", "rust", "svelte", "typescript", "sqlite" ]
+    },
+    {
+      "iconkey": "proj_xamp",
+      "title": "XAMP Web App",
+      "category": "code",
+      "links": [],
+      "description": "A simple PHP web app with a MySQL backend datastore, running locally on Apache HTTP Server. This was the final project of my Data Driven Webpages course that I completed as part of my Computer Programming degree in college. The application page hierarchy and interface was provided with the instructions for the project; thus this is mostly a basic demonstration of how to implement Models, Views, and Controllers in PHP. My plan is to eventually experiment with a more advanced example using the same core technologies, but built from the ground up with a custom frontend and the addition of more advanced features (i.e. Implement with Docker, include a frontend JavaScript framework, etc.).",
+      "topickeys": [ "apache", "php", "mysql", "xamp" ]
+    },
+    {
+      "iconkey": "rps",
+      "title": "Rock Paper Scissors Game",
+      "category": "code",
+      "links": [],
+      "description": "A simple Rock Paper Scissors game built in Java using JavaFX for the user interface. This was a project I completed as part of my Java Programming course in college. The game allows a user to play against the computer, and keeps track of wins/losses/ties. The user interface is simple but functional, and demonstrates the use of JavaFX components and event handling.",
+      "topickeys": [ "java", "scenebuilder", "javafx"]
+    },
+    {
+      "iconkey": "homelab",
+      "title": "Homelab",
+      "category": "systems",
+      "links": [],
+      "description": "",
+      "topickeys": [ "proxmox", "winserver", "pfsense", "cisco", "unifi", "docker", "podman", "nginx", "caddy", "acme", "lets_encrypt", "linux", "ubuntu", "nixos", "coolify", "gitlab", "vscode", "nextcloud", "rustdesk", "jellyfin", "bitwarden" ]
+    },
+    {
+      "iconkey": "proj_mecm",
+      "title": "MECM Lab Guide",
+      "category": "systems",
+      "links": [],
+      "description": "This guide walks you through the process of setting up MECM within a Hyper-V virtual machine environment. Additionally, this guide demonstrates essential functions of MECM including creating a Windows 10 images, deploying images, creating software collections and deploying packages.",
+      "topickeys": [ "mssql", "hyperv", "windows", "mecm" ]
+    }
+  ]
+}

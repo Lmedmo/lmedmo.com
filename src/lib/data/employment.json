@@ -1,0 +1,123 @@
+{
+  "name": "Employment",
+  "content": [
+      {
+        "iconkey": "cdi",
+        "name": "Churchill Downs Inc - Turfway Park + Newport Racing & Gaming",
+        "roles": ["IT Specialist", "Systems Analyst"],
+        "tenure": {
+          "start": "May 2024",
+          "is_current": false,
+          "end": "November 2025"
+        },
+        "location": { "city": "Florence", "state": "KY", "country": "USA" },
+        "salary": "$XX,XXX.00 annually — Will provide upon request",
+        "duties": [
+          {
+            "label": "Information Gathering and Organization",
+            "description": "Produced scheduled reports and other documentation (SOPs, Asset Inventory updates / audits, Knowledge base contributions, etc.) as requested by the Sr. Director of IT."
+          },            
+          {
+            "label": "Network Administration",
+            "description": "Managed and configured Cisco enterprise switches (Setup / modified VLANs via SSH / Putty, performed tasks using Cisco Call-Manager, etc.). Created and modified existing DHCP reservations from Windows Server DHCP Server application."
+          },            
+          {
+            "label": "Incident Resolution and Root-cause Analysis",
+            "description": "Provided hardware and software maintenance, configuration & repair of a wide range of mobile devices, POS terminals, kiosks, personal computers, workstations, and more."
+          },            
+          {
+            "label": "Remote Access and Virtual-Machine Management & Administration",
+            "description": "RDP, vSphere, EV Reach, SecureLink, etc."
+          },            
+          {
+            "label": "POS Administration",
+            "description": "Oracle Micros / EMC / Symphony experience which includes POS imaging, configuration, calibration, repair, and administration."
+          },            
+          {
+            "label": "Site-Access and Identity Verification App Administration",
+            "description": "Performed tasks related to access provisioning and de-provisioning for applications such as iTrak, VeriDocs, KeyWatcher, etc."
+          },            
+          {
+            "label": "Gaming-Application Administration",
+            "description": "Provisioned and de-provisioned access, managed permissions / groups, and configured applications such as Oasis 360, Oasis Loyalty, Everi apps (Trilogy, CashClub, Xchange Explorer, XView, etc.), Adept Mobile Dispatch System, etc."
+          },            
+          {
+            "label": "Financial Transaction & Compliance Application Administration",
+            "description": "Provisioned and de-provisioned access, managed permissions / groups, and configured applications such as FABICash / FABITrack, Glory ATM / Cash-Recycler kiosk management, etc."
+          },            
+          {
+            "label": "Business / Enterprise Application Administration",
+            "description": "Provisioned and de-provisioned access, managed permissions / groups, and configured applications such as Microsoft M365, Microsoft Exchange, Ivanti MobileIron, etc."
+          }
+        ]
+      },
+      {
+        "iconkey": "tlpg",
+        "name": "The Linchpin Group LLC",
+        "roles": ["IT Specialist", "Systems Engineer"],
+        "tenure": {
+          "start": "October 2022",
+          "is_current": false,
+          "end": "July 2023"
+        },
+        "location": { "city": "Florence", "state": "KY", "country": "USA" },
+        "salary": "$XX,XXX.00 annually — Will provide upon request",
+        "duties": [
+          {
+            "label": "Process Design and System Engineering",
+            "description": "Designed and implemented the processes, systems and infrastructure necessary to support the client (IRS - Criminal Investigation Division) and fulfill the following contract requirements: \n - Establish an 'Imaging Depot' with the capacity to process up to 120 laptops per day (built from the ground up). \n - Produce detailed documentation, reports, and resource material (ie. SOPs, knowledge-base materials, etc.) for a variety of operational initiatives. \n - Optimize and improve asset management systems and processes related to device inventorying, acquisition, and order fulfillment timelines."
+          },
+          {
+            "label": "System / Endpoint Administration",
+            "description": "Built, Tested, and Deployed Windows 10/11 Images for a variety hardware models using Microsoft SCCM (MECM / Intune)."
+          },
+          {
+            "label": "Security Baseline Enforcement and Vulnerability Remediation / Patching",
+            "description": "Enforced system security-policy compliance within a large network consisting of thousands of endpoints using tools such as HCL BigFix, Tenable, CyberArk, and Forescout."
+          },
+          {
+            "label": "Application Testing and System Integration (CI/CD)",
+            "description": "Coordinated daily with System Administrators and Testing-Team members to conduct application/software package testing to ensure compatibility with the overall system image in production or development at the time."
+          }
+        ]
+      },
+      {
+        "iconkey": "abb",
+        "name": "ABB Optical Group",
+        "roles": ["Lead Lab Technician"],
+        "tenure": {
+          "start": "December 2019",
+          "is_current": false,
+          "end": "October 2022"
+        },
+        "location": { "city": "Erlanger", "state": "KY", "country": "USA" },
+        "salary": "$XX,XXX.00 annually — Will provide upon request",
+        "duties": [
+          {
+            "label": "",
+            "description": "Coordinated personnel, responded to production issues, and assigned tasks to ensure department productivity goals were met or exceeded"
+          },
+          {
+            "label": "",
+            "description": "Operated and maintained large high speed, 5-axis CNC machines."
+          },
+          {
+            "label": "",
+            "description": "Assembled and performed quality control inspection of optical lenses & eyewear."
+          },
+          {
+            "label": "",
+            "description": "Experience using precision optical measurement tools."
+          },
+          {
+            "label": "",
+            "description": "Collected and analyzed data regarding product quality and the production rates of the department(s)."
+          },
+          {
+            "label": "",
+            "description": "Executed other specific tasks designated by a supervisor or manager."
+          }
+        ]
+      }
+  ]
+}

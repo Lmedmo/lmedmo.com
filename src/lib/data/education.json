@@ -1,0 +1,31 @@
+{
+  "name": "Education",
+  "content": [
+    {
+      "level": "High School",
+      "iconkey": "bchs",
+      "school_name": "Boone County High School",
+      "location": { "city": "Florence", "state": "KY", "country": "USA" },
+      "credential": "General Education",
+      "credential_type": "Diploma",
+      "major": null,
+      "specialization": null,
+      "graduated": "May 2017",
+      "credential_received_date": "June 2, 2017",
+      "grade": 3.44
+    },
+    {
+      "level": "Post-Secondary",
+      "iconkey": "gctc",
+      "school_name": "Gateway Community and Technical College (KCTCS)",
+      "location": { "city": "Florence", "state": "KY", "country": "USA" },
+      "credential": "Associate of Applied Science",
+      "credential_type": "Degree",
+      "major": "Computer and Information Technology",
+      "specialization": "Computer Programming",
+      "graduated": "May 2023",
+      "credential_received_date": "May 16, 2023",
+      "grade": 3.33
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+<!--% Link-icon: -->
+<!--& ~ Variable icon color and background(L0) visibility -->
+<!---------------------------------------------------------------------------------->
+<script lang="ts">
+    let { color = "#000000", size = 1024 }: { color: string, size: number } = $props();
+
+    /* Link-icon: Properties */
+    let icon_label: string = "Link"; //~ Define here
+    let init_bg_color: string = "#55CC00"; //~ Define here
+
+    let iconfill: string = $derived(color);
+    let style: string = $derived(`width: ${size}px; height: ${size}px;`);
+    let hovered: boolean = $state(false);
+
+	function onmouseenter(){
+        iconfill = "#FFFFFF";
+        hovered = true;
+	}
+	function onmouseleave(){
+        iconfill = color;
+        hovered = false;
+	}
+</script>
+
+
+<button class="link-icon" {style} {onmouseenter} {onmouseleave} aria-label={icon_label}>
+    <svg width="1026" height="1024" viewBox="0 0 1026 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="link--s1-alt_qlnk_clr_flat-o1-512br-1024p">
+        {#if (hovered)} <!-- ~ Show background (icon base-layer(0)) -->
+            <g id="base-v3.2">
+                <g id="solid-512px">
+                    <rect x="1.28516" width="1024" height="1024" rx="512" fill={init_bg_color}/>
+                    <rect x="13.2852" y="12" width="1000" height="1000" rx="500" stroke="black" stroke-opacity="0.25" stroke-width="24"/>
+                </g>
+            </g>
+        {/if}
+            <g id="container">
+                <g id="icon">
+                    <path id="bottom-link" d="M482.958 800.665L590.743 693.83C606.119 678.454 614.935 667.424 622.891 648.549C582.325 665.649 539.1 660.859 498.558 643.682L410.841 728.548C386.944 752.446 343.391 749.561 319.493 725.664L298.339 704.509C274.442 680.612 271.557 637.059 295.454 613.162L410.841 497.775C432.018 476.598 473.925 472.389 496.172 492.373C533.53 525.93 496.172 492.373 533.53 525.93C555.777 545.914 586.281 543.606 607.458 522.429L627.526 502.361C619.573 483.59 611.128 470.192 598.345 454.505C588.281 442.154 569.498 425.658 569.498 425.658C554.217 410.377 536.659 398.76 517.916 390.807C477.356 373.598 431.248 373.549 390.657 390.659C371.783 398.615 354.101 410.282 338.725 425.658L223.338 541.045C159.611 604.771 159.611 708.092 223.338 771.818L252.184 800.665C315.911 864.391 419.232 864.391 482.958 800.665Z" fill={iconfill}/>
+                    <path id="top-link" d="M541.042 224.287C477.315 288.013 445.783 321.447 430.406 336.823C415.03 352.2 406.81 372.602 406.81 372.602C445.478 359.539 486.612 360.879 528.292 384.121C528.292 384.121 589.261 320.301 613.159 296.404C637.056 272.506 680.609 275.391 704.506 299.288C728.404 323.186 701.763 296.545 725.661 320.443C749.558 344.34 752.443 387.893 728.545 411.79L615.06 528.127C598.768 544.12 565.26 568.002 526.379 533.757C516.995 525.492 507.249 516.473 495.221 504.723C473.831 483.825 436.769 484.196 415.592 505.373L396.941 524.292C396.941 524.292 402.853 549.377 438.036 584.561C473.219 619.744 486.134 626.34 504.877 634.293C545.436 651.502 592.752 651.403 633.343 634.293C652.218 626.337 669.899 614.67 685.275 599.294C700.652 583.917 736.936 547.633 800.662 483.907C864.388 420.181 864.388 316.86 800.662 253.134C736.936 189.407 835.542 288.013 771.815 224.287C708.089 160.561 604.768 160.561 541.042 224.287Z" fill={iconfill}/>
+                </g>
+            </g>
+        </g>
+    </svg>
+</button>
+
+
+<style>
+    .link-icon {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        background: none;
+        border: none;
+        aspect-ratio: 1/1;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        cursor: pointer;
+
+        /* box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.25); */
+    }
+    svg {
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+</style>
